@@ -24,7 +24,7 @@ header h1 {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;   
-    background-image: linear-gradient(teal, purple);
+    background-image: linear-gradient(rgb(173, 85, 85), rgb(0, 177, 89));
 }
 
 nav {
@@ -126,5 +126,5 @@ footer p {
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0px 100px rgb(140, 98, 178);
+    box-shadow: 0 0px 100px rgb(0, 140, 255);
 }
