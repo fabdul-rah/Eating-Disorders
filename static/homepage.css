@@ -18,7 +18,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px
+    margin: 10px;
     
 }
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
     -webkit-background-clip: text;
     background-clip: text;   
     background-image: linear-gradient(teal, purple);
-    border-radius: 100px;
+    border-radius: 5px;
     }
 
 nav {
