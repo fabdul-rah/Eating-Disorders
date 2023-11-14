@@ -17,6 +17,10 @@ def suicide_prevention():
 @app.route('/combination')
 def combination():
     return render_template('combination.html')
+    
+@app.route('/citations')
+def citations():
+    return render_template('citations.html')
 
 if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0")
+    app.run(debug=True,host="0.0.0.0", port=5001)
